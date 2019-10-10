@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>chunk | Teach</title>
+    <meta name="description" content="错题集">
+    
+    
+    <link rel="preload" href="/Teach/assets/css/0.styles.576215f9.css" as="style"><link rel="preload" href="/Teach/assets/js/app.e394987e.js" as="script"><link rel="preload" href="/Teach/assets/js/2.fcf0aa6d.js" as="script"><link rel="preload" href="/Teach/assets/js/7.e30aa5ba.js" as="script"><link rel="prefetch" href="/Teach/assets/js/3.f38f2c85.js"><link rel="prefetch" href="/Teach/assets/js/4.2119a9f7.js"><link rel="prefetch" href="/Teach/assets/js/5.f5d71f70.js"><link rel="prefetch" href="/Teach/assets/js/6.e94e1411.js"><link rel="prefetch" href="/Teach/assets/js/8.f0bd9550.js">
+    <link rel="stylesheet" href="/Teach/assets/css/0.styles.576215f9.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/Teach/" class="home-link router-link-active"><!----> <span class="site-name">Teach</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/Teach/error/" class="nav-link router-link-active">错题集</a></div> <a href="https://github.com/sillyY/Teach" target="_blank" rel="noopener noreferrer" class="repo-link">
+    GitHub
+    <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/Teach/error/" class="nav-link router-link-active">错题集</a></div> <a href="https://github.com/sillyY/Teach" target="_blank" rel="noopener noreferrer" class="repo-link">
+    GitHub
+    <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>错题集</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/Teach/error/chunk.html" class="active sidebar-link">chunk函数解析</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/Teach/error/chunk.html#错误题解" class="sidebar-link">错误题解</a></li></ul></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="chunk"><a href="#chunk" aria-hidden="true" class="header-anchor">#</a> chunk</h1> <p>将数组（array）拆分成多个 size 长度的区块，并将这些区块组成一个新数组。
+如果array 无法被分割成全部等长的区块，那么最后剩余的元素将组成一个区块。</p> <div class="language- extra-class"><pre class="language-text"><code>function chunk(array, size = 1) {
+
+}
+</code></pre></div><p>举个🌰</p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token function">chunk</span><span class="token punctuation">(</span><span class="token punctuation">[</span><span class="token string">'a'</span><span class="token punctuation">,</span> <span class="token string">'b'</span><span class="token punctuation">,</span> <span class="token string">'c'</span><span class="token punctuation">,</span> <span class="token string">'d'</span><span class="token punctuation">]</span><span class="token punctuation">,</span> <span class="token number">2</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token comment">// =&gt; [['a', 'b'], ['c', 'd']]</span>
+ 
+<span class="token function">chunk</span><span class="token punctuation">(</span><span class="token punctuation">[</span><span class="token string">'a'</span><span class="token punctuation">,</span> <span class="token string">'b'</span><span class="token punctuation">,</span> <span class="token string">'c'</span><span class="token punctuation">,</span> <span class="token string">'d'</span><span class="token punctuation">]</span><span class="token punctuation">,</span> <span class="token number">3</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token comment">// =&gt; [['a', 'b', 'c'], ['d']]</span>
+</code></pre></div><h2 id="错误题解"><a href="#错误题解" aria-hidden="true" class="header-anchor">#</a> 错误题解</h2> <h3 id="示例1"><a href="#示例1" aria-hidden="true" class="header-anchor">#</a> 示例1</h3> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">function</span> <span class="token function">chunk</span><span class="token punctuation">(</span><span class="token parameter">array<span class="token punctuation">,</span> size</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token comment">// 第一步</span>
+    <span class="token keyword">var</span> length <span class="token operator">=</span> Math<span class="token punctuation">.</span><span class="token function">ceil</span><span class="token punctuation">(</span>array<span class="token punctuation">.</span>length <span class="token operator">|</span> size<span class="token punctuation">)</span> 
+    <span class="token comment">// 第二步</span>
+    <span class="token keyword">var</span> newList <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token punctuation">]</span>
+    <span class="token comment">// 第三步</span>
+    <span class="token keyword">for</span><span class="token punctuation">(</span><span class="token keyword">var</span> i <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span> i <span class="token operator">&lt;</span> length<span class="token punctuation">;</span> i<span class="token operator">++</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token comment">// 第四步</span>
+        <span class="token keyword">var</span> list <span class="token operator">=</span> array<span class="token punctuation">.</span><span class="token function">slice</span><span class="token punctuation">(</span><span class="token number">0</span><span class="token punctuation">,</span> size <span class="token operator">-</span> <span class="token number">1</span><span class="token punctuation">)</span>
+    <span class="token comment">// 第五步</span>
+        newList<span class="token punctuation">.</span><span class="token function">push</span><span class="token punctuation">(</span>list<span class="token punctuation">)</span>
+    <span class="token comment">// 第六步</span>
+        array<span class="token punctuation">.</span><span class="token function">splice</span><span class="token punctuation">(</span><span class="token number">0</span><span class="token punctuation">,</span> size<span class="token punctuation">)</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre></div><h4 id="运行结果"><a href="#运行结果" aria-hidden="true" class="header-anchor">#</a> 运行结果</h4> <p><img src="/Teach/example-1.png" alt="result"></p> <h4 id="错误点"><a href="#错误点" aria-hidden="true" class="header-anchor">#</a> 错误点</h4> <ul><li><ol><li>首先不说函数里的问题，结果就无返回值</li></ol></li></ul> <p>再说说函数里的</p> <ul><li><ol><li>第一步</li></ol> <ul><li>1.1. 建议使用let, var 没有作用域概念，特殊情况除外，一般都推荐let</li> <li>1.2. array.length | size 这是什么鬼，你知道什么是位运算吗？</li> <li>1.3. Math.ceil返回大于或等于一个给定数字的最小整数。<br>
+没太看懂你这里用Math.ceil什么意思，难不成你想用的是Math.min, 取2个数中的最小值。<br>
+那么我假定你是取最小值，假设size取1，那么下面的遍历，你的数组都遍历不完，处理了第一个数据，就结束了</li> <li>1.4. 你在这个位置应该要做的是判断size是否不存在或者大于数组的长度<br>
+ps: 根据设计模式的推荐，对于size是否为数字等这种无意义判断可以不处理，不处理规定好的值（size这个变量的命名就是用于数字类型的）</li></ul></li> <li><ol start="2"><li>第二步</li></ol> <ul><li>2.1 建议使用let, var 没有作用域概念，特殊情况除外，一般都推荐let</li> <li>2.2 对于变量的命名，尽量符合该变量的含义，在这里你是想用于存储最后的结果，那么你这里可以直接用result或者res来表示</li></ul></li> <li><ol start="3"><li>第三步</li></ol> <ul><li>3.1 对于这种for循环，可以采用下面这种方式，可读性好，特殊情况除外</li></ul> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">var</span> i <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">,</span>
+    len <span class="token operator">=</span> array<span class="token punctuation">.</span>length<span class="token punctuation">;</span>
+<span class="token keyword">for</span><span class="token punctuation">(</span><span class="token punctuation">;</span>i <span class="token operator">&lt;</span> len<span class="token punctuation">;</span> i<span class="token operator">++</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+
+<span class="token punctuation">}</span>
+</code></pre></div></li></ul> <blockquote><p>本想着合起来写的，但问题太多了</p></blockquote> <ul><li><ol start="4"><li>第四步</li></ol> <ul><li>4.1 首先slice是包头，不包尾的。（包含begin，不包括end）<br>
+如果你size是1，那么你这里list不就是[]</li></ul></li> <li><ol start="5"><li>第五步</li></ol> <ul><li>无</li></ul></li> <li><ol start="6"><li>第6步</li></ol> <ul><li>无</li></ul></li> <li>4.5.6 第四、五、六合集<br>
+我明白你这里的意思，你不就是想取出数组中的前几个数,然后删掉前几个数，但这里有问题以及浪费资源
+<ul><li><ol><li>假设length比较大，size非常大，i自增是1个1个加。（这个假设非常难假设，指的是考虑的这个场景）<br>
+当你删除数组中的数据，遍历了几次后，数组中将没数据了，但这时你的i还是小于length,会导致后面的结果都是空数组。</li></ol></li> <li><ol start="2"><li>其实哪有那么复杂。for循环的i不是只有i++, 你可以i+=size</li></ol></li></ul> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">var</span> i <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">,</span>
+    len <span class="token operator">=</span> array<span class="token punctuation">.</span>length
+<span class="token keyword">for</span><span class="token punctuation">(</span><span class="token punctuation">;</span>i<span class="token operator">&lt;</span>len<span class="token punctuation">;</span>i<span class="token operator">+=</span>size<span class="token punctuation">)</span><span class="token punctuation">{</span>
+    <span class="token comment">// 省略取出size个单位的数据，并将数据添加到result数组中这2步</span>
+<span class="token punctuation">}</span>
+</code></pre></div></li></ul></div> <footer class="page-edit"><div class="edit-link"><a href="https://github.com/sillyY/Teach/edit/master/docs/error/chunk.md" target="_blank" rel="noopener noreferrer">在 GitHub 上编辑此页</a> <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></div> <div class="last-updated"><span class="prefix">上次更新:</span> <span class="time">10/10/2019, 10:54:59 AM</span></div></footer> <!----> </main></div><div class="global-ui"></div></div>
+    <script src="/Teach/assets/js/app.e394987e.js" defer></script><script src="/Teach/assets/js/2.fcf0aa6d.js" defer></script><script src="/Teach/assets/js/7.e30aa5ba.js" defer></script>
+  </body>
+</html>
