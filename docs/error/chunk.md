@@ -35,7 +35,7 @@ function chunk(array, size) {
 }
 ```
 #### 运行结果
-![result](/example-1.png)
+![result](/Teach/example-1.png)
 
 #### 错误点
 - 1. 首先不说函数里的问题，结果就无返回值  
